@@ -1,6 +1,6 @@
 import React from "react"
 import "./header.css";
-import { Row, Col, Container } from "react-bootstrap";
+import { Row, Col } from "react-bootstrap";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 export const Header = () => (

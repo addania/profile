@@ -1,5 +1,4 @@
 import React from "react"
-import { Row, Col, Container } from "react-bootstrap";
 import { Header } from "../components/Header"
 import { Logo } from "../components/Logo"
 import { BackgroundImage } from "../components/BackgroundImage"
