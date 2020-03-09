@@ -1,0 +1,30 @@
+.trigger {
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    opacity: 1;
+    cursor: pointer;
+  }
+
+  .trigger:hover {
+    opacity: 1.0;
+  }
+  
+  .trigger:hover .riser {
+    bottom: 0px;
+    transition: bottom .5s;
+  }
+  
+  .riser {
+    bottom: -50px;
+    position: absolute;
+    left: 0px;
+    background-color: #333;
+    color: #fff;
+    width: 100%;
+    padding: 10px;
+    font-family: helvetica, sans-serif;
+    font-size: 0.8em;
+    letter-spacing: 1px;
+    transition: bottom .5s;
+  }
