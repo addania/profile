@@ -6,7 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 export const Header = ({ text, position }) => (
     <div>
         <Row>
-            <Col sm={12} style={{ position: "absolute", top: position }}>
+            <Col sm={12}>
                 <h2 className="title"><span>{text}</span></h2>
             </Col>
         </Row>

@@ -1,15 +1,6 @@
 h2 {
-  position: absolute; 
   width: 100%;
   text-align: center; 
-}
-
-h2.title {   
-  top: 100px;
-}
-
-h2.subtitle { 
-  top: 175px;
 }
 
 h2 span{
