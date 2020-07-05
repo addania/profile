@@ -13,10 +13,11 @@
   .trigger:hover .riser {
     bottom: 0px;
     transition: bottom .5s;
+
   }
-  
+
   .riser {
-    bottom: -50px;
+    bottom: -40px;
     position: absolute;
     left: 0px;
     background-color: #333;
@@ -27,4 +28,25 @@
     font-size: 0.8em;
     letter-spacing: 1px;
     transition: bottom .5s;
+  }
+  
+
+  .trigger:hover .riser2 {
+    top: 0px;
+    transition: top .5s;
+    
+  }
+
+  .riser2 {
+    top: 100px;
+    position: absolute;
+    left: 0px;
+    background-color: #333;
+    color: #fff;
+    width: 100%;
+    padding: 10px;
+    font-family: helvetica, sans-serif;
+    font-size: 0.8em;
+    letter-spacing: 1px;
+    transition: top .5s;
   }

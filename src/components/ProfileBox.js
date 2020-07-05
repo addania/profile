@@ -6,8 +6,9 @@ import "./profileBox.css"
 export const ProfileBox = ({ landingPage, url, text }) => (
     <a href={landingPage} target="_blank">
         <div className="trigger" style={{ backgroundColor: "black" }} >
-            <img src={url} alt="" style={{ height: "300px" }} />
+            <img src={url} alt="" style={{ height: "350px", maxWidth: "450px" }} />
             <div className="riser">{text}</div>
+            <div className="riser2">{text}</div>
         </div >
     </a>
 )
